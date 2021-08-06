@@ -9,13 +9,18 @@
 .u-section-1 .u-image-1 {
   width: 406px;
   height: 406px;
-  background-image: url("images/5f2d4bf8bbab6b620ba6f8e3ed905427c6dbfa70ece982ec87b1410c94d018573cc94bd7080a6354c0ebc84785b2754b4bee8954afc3a149aba53f_1280.jpg");
+  background-image: url("images/panteleymon1.jpg");
   background-position: 50% 50%;
-  margin: 60px auto 0;
+  margin: 14px auto 0;
+}
+
+.u-section-1 .u-text-1 {
+  font-weight: 700;
+  margin: 27px auto 0;
 }
 
 .u-section-1 .u-layout-wrap-1 {
-  margin: 20px auto 60px 0;
+  margin: 14px auto 60px 0;
 }
 
 .u-section-1 .u-layout-cell-1 {
@@ -26,7 +31,7 @@
   padding: 30px;
 }
 
-.u-section-1 .u-text-1 {
+.u-section-1 .u-text-2 {
   margin-top: 0;
   margin-bottom: 0;
   font-weight: 400;
@@ -34,7 +39,7 @@
   font-size: 3.75rem;
 }
 
-.u-section-1 .u-text-2 {
+.u-section-1 .u-text-3 {
   font-size: 0.875rem;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -61,7 +66,7 @@
   padding: 30px;
 }
 
-.u-section-1 .u-text-3 {
+.u-section-1 .u-text-4 {
   margin-top: 0;
   font-size: 1.125rem;
   margin-bottom: 0;
@@ -76,6 +81,14 @@
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
     min-height: 876px;
+  }
+
+  .u-section-1 .u-image-1 {
+    margin-top: 85px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-top: 20px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
@@ -101,7 +114,7 @@
     min-height: 100px;
   }
 
-  .u-section-1 .u-text-1 {
+  .u-section-1 .u-text-2 {
     font-size: 3rem;
   }
 
@@ -112,7 +125,22 @@
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 746px;
+    min-height: 1319px;
+  }
+
+  .u-section-1 .u-image-1 {
+    margin-top: 110px;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: auto;
+    margin-top: 33px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    margin-top: 7px;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-1 .u-container-layout-1 {
@@ -128,15 +156,28 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 680px;
+    min-height: 1360px;
   }
 
   .u-section-1 .u-image-1 {
-    width: 340px;
+    margin-top: 42px;
     height: 340px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
   }
 
   .u-section-1 .u-text-1 {
+    margin-top: 13px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    margin-top: 0;
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-1 .u-text-2 {
     font-size: 2.25rem;
   }
 }.u-section-2 .u-sheet-1 {
